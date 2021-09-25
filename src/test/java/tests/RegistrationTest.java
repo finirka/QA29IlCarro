@@ -1,62 +1,120 @@
 package tests;
 
+import models.User;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class RegistrationTest extends TestBase {
 
+    @BeforeMethod
+    public void preCondition() {
+        if (app.userHelper().isLogOutPresent()) {
+            app.userHelper().logout();
+        }
+    }
+
     @Test
-    public void registrationSuccess(){
-        openRegistrationForm();
-        fillRegistrationForm("Noa","Last","noa1@gmail.com","Nnoa12345$");
-        fillCheckBox();
-        submitForm();
-        Assert.assertTrue(isRegistrated());
+    public void registrationSuccess() {
+        int i = (int) ((System.currentTimeMillis() / 1000) % 3600);
+        app.userHelper().openRegistrationForm();
+        //app.userHelper().fillRegistrationForm("Noa","Last","noa"+i+"@gmail.com","Nnoa12345$");
+        app.userHelper().fillRegistrationForm("Lis", "Slow", "slow" + i + "@gmail.com", "Ss1234" + i + "$");
+        app.userHelper().fillCheckBox();
+        app.userHelper().submitForm();
+        Assert.assertTrue(app.userHelper().isRegistrationSuccess());
+    }
+
+    @Test
+    public void registrationSuccessModel() {
+
+        int i = (int) ((System.currentTimeMillis() / 1000) % 3600);
+        User user = new User()
+                .withName("Lis").withLastName("Slow").withEmail("slow" + i + "@gmail.com").withPassword("Ss1234" + i + "$");
+
+        app.userHelper().openRegistrationForm();
+        app.userHelper().fillRegistrationForm(user);
+        app.userHelper().fillCheckBox();
+        app.userHelper().submitForm();
+        Assert.assertTrue(app.userHelper().isRegistrationSuccess());
+    }
+
+/*
+    @Test
+    public void registrationTest2(){
+        int i = (int)((System.currentTimeMillis()/1000)%3600);
+        app.userHelper().openRegistrationForm();
+        app.userHelper().fillRegistrationForm("Lis","Slow","slow"+i+"@gmail.com","Ss12"+i+"$");
+        app.userHelper().fillCheckBox();
+        app.userHelper().submitForm();
+        Assert.assertTrue(app.userHelper().isRegistrationSuccess());
+
     }
 
     @Test
     public void negativeRegistrationExistAccount(){
-        openRegistrationForm();
-        fillRegistrationForm("Noa","Last","noa1@gmail.com","Nnoa12345$");
-        fillCheckBox();
-        submitForm();
-        Assert.assertFalse(isRegistrated());
+        app.userHelper().openRegistrationForm();
+        app.userHelper().fillRegistrationForm("Noa","Last","noa1@gmail.com","Nnoa12345$");
+        app.userHelper().fillCheckBox();
+        app.userHelper().submitForm();
+        Assert.assertFalse(app.userHelper().isRegistrated());
     }
 
     @Test
     public void negativeRegistrationWithoutName(){
-        openRegistrationForm();
-        fillRegistrationForm("","Last","noa@gmail.com","Nnoa12345$");
-        fillCheckBox();
+        app.userHelper().openRegistrationForm();
+        app.userHelper().fillRegistrationForm("","Last","noa@gmail.com","Nnoa12345$");
+        app.userHelper().fillCheckBox();
         //noSubmitForm();
-        Assert.assertTrue(isNotRegistration());
+        Assert.assertTrue(app.userHelper().isNotRegistration());
     }
 
     @Test
     public void negativeRegistrationWithoutLastName(){
-        openRegistrationForm();
-        fillRegistrationForm("Noa","","noa@gmail.com","Nnoa12345$");
-        fillCheckBox();
+        app.userHelper().openRegistrationForm();
+        app.userHelper().fillRegistrationForm("Noa","","noa@gmail.com","Nnoa12345$");
+        app.userHelper().fillCheckBox();
         //noSubmitForm();
-        Assert.assertTrue(isNotRegistration());
+        Assert.assertTrue(app.userHelper().isNotRegistration());
     }
 
     @Test
     public void negativeRegistrationWithoutEmail(){
-        openRegistrationForm();
-        fillRegistrationForm("Noa","Last","","Nnoa12345$");
-        fillCheckBox();
+        app.userHelper().openRegistrationForm();
+        app.userHelper().fillRegistrationForm("Noa","Last","","Nnoa12345$");
+        app.userHelper().fillCheckBox();
         //noSubmitForm();
-        Assert.assertTrue(isNotRegistration());
+        Assert.assertTrue(app.userHelper().isNotRegistration());
     }
 
     @Test
     public void negativeRegistrationWithoutPassword(){
-        openRegistrationForm();
-        fillRegistrationForm("Noa","Last","noa@gmail.com","");
-        fillCheckBox();
+        app.userHelper().openRegistrationForm();
+        app.userHelper().fillRegistrationForm("Noa","Last","noa@gmail.com","");
+        app.userHelper().fillCheckBox();
         //noSubmitForm();
-        Assert.assertTrue(isNotRegistration());
+        Assert.assertTrue(app.userHelper().isNotRegistration());
+    }
+*/
+
+    @Test
+    public void registrationTestNegative() throws InterruptedException {
+
+        int i = (int) ((System.currentTimeMillis() / 1000) % 3600);
+
+        app.userHelper().openRegistrationForm();
+        app.userHelper().fillRegistrationForm("Lis", "Slow", "slow" + i + "@gmail.com", "12" + i);
+        app.userHelper().fillCheckBox();
+        app.userHelper().submitForm();
+        Thread.sleep(3000);
+        //Assert.assertTrue(app.userHelper().isErrorPasswordDisplayed());
+        //Assert.assertTrue(app.userHelper().isYallaButtonActive());
+        Assert.assertFalse(app.userHelper().isYallaButtonActive());
     }
 
+    @AfterMethod
+    public void postCondition() {
+        app.userHelper().clickOkButton();
+    }
 }
