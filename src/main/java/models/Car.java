@@ -1,5 +1,5 @@
 package models;
-//import lombok.*;
+import lombok.*;
 
 public class Car {
 

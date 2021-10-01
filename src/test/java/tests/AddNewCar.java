@@ -2,7 +2,9 @@ package tests;
 
 import models.Car;
 import models.CarNew;
+import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -11,6 +13,13 @@ public class AddNewCar extends TestBase{
     @BeforeMethod
     public void preCondition(){
      //login
+        //if(app.userHelper().isLogOutPresent()){}
+        //else {
+        if(!app.userHelper().isLogOutPresent()){
+            app.userHelper().openLoginForm();
+            app.userHelper().fillLoginForm("nnoa@gmail.com", "Nn12345$");
+            app.userHelper().submitForm();
+        }
 
     }
 
@@ -41,9 +50,10 @@ public class AddNewCar extends TestBase{
         app.car().attachPhoto();
         app.car().clickButtonSubmit();
 
-        //Assert.assertTrue(app.car().isCarAdded());
+        Assert.assertTrue(app.car().isCarAdded());
     }
 
+    @Test
     public void addNewCarSuccessModelCarNew(){
         int i = (int)((System.currentTimeMillis()/1000)%3600);
         CarNew car = CarNew.builder()
@@ -70,9 +80,13 @@ public class AddNewCar extends TestBase{
         app.car().fillCarForm(car);
         app.car().attachPhoto();
         app.car().clickButtonSubmit();
-       // Assert.assertTrue(app.car().isCarAdded());
+        Assert.assertTrue(app.car().isCarAdded());
 
     }
 
+    @AfterMethod
+    public void postCondition(){
+        app.car().clickCarButton();
 
+    }
 }

@@ -22,6 +22,25 @@ public class HelperCar extends HelperBase {
     }
 
     public void fillCarForm(CarNew car){
+        typeLocation(car.getAddress());
+        type(By.id("make"),car.getMake());
+        type(By.id("model"), car.getModel());
+        type(By.id("year"), car.getYear());
+        type(By.id("engine"), car.getEngine());
+
+        selectFuel(By.id("fuel"),car.getFuel());
+        select(By.id("gear"),car.getGear());
+        select(By.id("wheelsDrive"), car.getWD());
+
+        type(By.id("doors"),car.getDoors());
+        type(By.id("seats"),car.getSeats());
+        type(By.id("class"),car.getClasS());
+        type(By.id("fuelConsumption"),car.getFuelConsumption());
+        type(By.id("serialNumber"),car.getCarRegNumber());
+        type(By.id("price"),car.getPrice());
+        type(By.id("distance"),car.getDistanceIncluded());
+        type(By.cssSelector(".feature-input"),car.getTypeFeature());
+        type(By.id("about"),car.getAbout());
 
     }
 
@@ -88,5 +107,20 @@ public class HelperCar extends HelperBase {
         click(By.xpath("//button[.='Submit']"));
 
 
+    }
+
+    public boolean isCarAdded() {
+        //h1[text()='Car added']
+        String text = wd.findElement(By.cssSelector(".dialog-container h1")).getText();
+        //click(By.xpath("//button[text()='Ok']"));
+        // //click(By.cssSelector(".positive-button.ng-star-inserted"));
+        //return text.equals("You are logged in success");
+        return text.equals("Car added");
+    }
+
+    public void clickCarButton() {
+        if(isElementPresent(By.xpath("//button[text()='Show car']"))) {
+            click(By.xpath("//button[text()='Show car']"));
+        }
     }
 }
