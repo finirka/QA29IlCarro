@@ -1,0 +1,53 @@
+02:13:43  INFO  tests.TestBase - Start method: rentWithoutLogin
+02:13:43  INFO  application.MyListener - Start find element by------>  
+02:13:43  INFO  application.MyListener - The element  ---> By.id: city was found
+02:13:43  INFO  application.MyListener - Start find element by------>  
+02:13:44  INFO  application.MyListener - The element  ---> By.cssSelector: div.pac-item was found
+02:13:44  INFO  application.MyListener - Start find element by------>  
+02:13:44  INFO  application.MyListener - The element  ---> By.id: dates was found
+02:13:45  INFO  application.MyListener - Start find element by------>  
+02:13:45  INFO  application.MyListener - The element  ---> By.cssSelector: .cdk-overlay-container was found
+02:13:45  INFO  application.MyListener - Start find element by------>  
+02:13:45  INFO  application.MyListener - The element  ---> By.xpath: //button[@type='submit'] was found
+02:13:45  INFO  application.MyListener - Start find element by------>  
+02:13:45  INFO  application.MyListener - The element  ---> By.cssSelector: .search-results was found
+02:13:45  INFO  application.MyListener - Start find element by------>  
+02:13:46  INFO  application.MyListener - The element  ---> By.xpath: //span[text()='BMW M5'] was found
+02:13:47  INFO  application.MyListener - Start find element by------>  
+02:13:47  INFO  application.MyListener - The element  ---> By.xpath: //button[.='Rent now!! '] was found
+02:13:47  INFO  application.MyListener - Start find element by------>  
+02:13:47  INFO  application.MyListener - The element  ---> By.xpath: //a[.=' Log in '] was found
+02:13:47  INFO  application.MyListener - Start find element by------>  
+02:13:47  INFO  application.MyListener - The element  ---> By.xpath: //input[@id='email'] was found
+02:13:48  INFO  application.MyListener - Start find element by------>  
+02:13:48  INFO  application.MyListener - The element  ---> By.xpath: //input[@id='password'] was found
+02:13:48  INFO  application.MyListener - Start find element by------>  
+02:13:48  INFO  application.MyListener - The element  ---> By.xpath: //button[@type='submit'] was found
+02:13:48  INFO  application.MyListener - Start find element by------>  
+02:13:48  INFO  application.MyListener - The element  ---> By.xpath: //button[.='Rent now!! '] was found
+02:13:49  INFO  application.MyListener - Start find element by------>  
+02:13:49  INFO  application.MyListener - The element  ---> By.xpath: //input[@id='phone'] was found
+02:13:49  INFO  application.MyListener - Start find element by------>  
+02:13:49  INFO  application.MyListener - The element  ---> By.xpath: //button[@type='submit'] was found
+02:13:49  INFO  application.MyListener - Start find element by------>  
+02:13:50  INFO  application.MyListener - The element  ---> By.xpath: //div[@class='dialog-container']//h1[@class='title'] was found
+02:13:50  INFO  application.MyListener - Start find element by------>  
+02:13:50  INFO  application.MyListener - The element  ---> By.xpath: //button[text()='Close'] was found
+02:13:50  INFO  application.MyListener - We have a throwable --> stale element reference: element is not attached to the page document
+  (Session info: chrome=95.0.4638.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Gennadij-2.local', ip: '2a10:8006:ea6f:0:9ddf:beee:934b:4e85%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: /var/folders/n8/jzp58rb134n...}, goog:chromeOptions: {debuggerAddress: localhost:62092}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a6ee867e0544efc0898f541d7c4cd8eb
+02:13:50  INFO  application.MyListener - We have a throwable --> org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=95.0.4638.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Gennadij-2.local', ip: '2a10:8006:ea6f:0:9ddf:beee:934b:4e85%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: /var/folders/n8/jzp58rb134n...}, goog:chromeOptions: {debuggerAddress: localhost:62092}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a6ee867e0544efc0898f541d7c4cd8eb
+02:13:51  INFO  application.MyListener - Screen with throwable --->src/test/screenshots/screen-830.png
+02:13:51  INFO  tests.TestBase - End of test -->rentWithoutLogin

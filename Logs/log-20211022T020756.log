@@ -1,0 +1,31 @@
+02:08:05  INFO  tests.TestBase - Start method: rentWithoutLogin
+02:08:05  INFO  application.MyListener - Start find element by------>  
+02:08:05  INFO  application.MyListener - The element  ---> By.id: city was found
+02:08:05  INFO  application.MyListener - Start find element by------>  
+02:08:06  INFO  application.MyListener - The element  ---> By.cssSelector: div.pac-item was found
+02:08:06  INFO  application.MyListener - Start find element by------>  
+02:08:06  INFO  application.MyListener - The element  ---> By.id: dates was found
+02:08:06  INFO  application.MyListener - Start find element by------>  
+02:08:06  INFO  application.MyListener - The element  ---> By.cssSelector: .cdk-overlay-container was found
+02:08:07  INFO  application.MyListener - Start find element by------>  
+02:08:07  INFO  application.MyListener - The element  ---> By.xpath: //button[@type='submit'] was found
+02:08:07  INFO  application.MyListener - Start find element by------>  
+02:08:07  INFO  application.MyListener - The element  ---> By.cssSelector: .search-results was found
+02:08:07  INFO  application.MyListener - Start find element by------>  
+02:08:07  INFO  application.MyListener - The element  ---> By.xpath: //span[text()='BMW M5'] was found
+02:08:09  INFO  application.MyListener - Start find element by------>  
+02:08:09  INFO  application.MyListener - The element  ---> By.xpath: //button[.='Rent now!! '] was found
+02:08:09  INFO  application.MyListener - Start find element by------>  
+02:08:09  INFO  application.MyListener - The element  ---> By.xpath: //a[.=' Log in '] was found
+02:08:09  INFO  application.MyListener - Start find element by------>  
+02:08:17  INFO  application.MyListener - We have a throwable --> Cannot locate an element using xpath=//input[@id='email']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Gennadij-2.local', ip: '2a10:8006:ea6f:0:9ddf:beee:934b:4e85%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '11.0.12'
+Driver info: driver.version: EventFiringWebDriver
+02:08:17  INFO  application.MyListener - We have a throwable --> org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//input[@id='email']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Gennadij-2.local', ip: '2a10:8006:ea6f:0:9ddf:beee:934b:4e85%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '11.0.12'
+Driver info: driver.version: EventFiringWebDriver
+02:08:18  INFO  tests.TestBase - End of test -->rentWithoutLogin

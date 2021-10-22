@@ -115,7 +115,8 @@ public class HelperCar extends HelperBase {
         //click(By.xpath("//button[text()='Ok']"));
         // //click(By.cssSelector(".positive-button.ng-star-inserted"));
         //return text.equals("You are logged in success");
-        return text.equals("Car added");
+        //return text.equals("Car added");
+        return wd.findElements(By.xpath("//h1[.='Car added']")).size()>0;
     }
 
     public void clickCarButton() {

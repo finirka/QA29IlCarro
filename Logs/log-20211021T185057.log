@@ -1,0 +1,77 @@
+18:51:06  INFO  tests.TestBase - Start method: loginSuccess
+18:51:06  INFO  application.MyListener - Start find element by------>  
+18:51:16  INFO  application.MyListener - The element  ---> By.xpath: //a[text()=' Logout '] was found
+18:51:16  INFO  tests.TestBase - Login with email: nnoa@gmail.com & password: Nn12345$ 
+18:51:16  INFO  application.MyListener - Start find element by------>  
+18:51:16  INFO  application.MyListener - The element  ---> By.xpath: //a[text()=' Log in '] was found
+18:51:16  INFO  application.MyListener - Start find element by------>  
+18:51:26  INFO  application.MyListener - We have a throwable --> no such element: Unable to locate element: {"method":"css selector","selector":"#em"}
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Gennadij-2.local', ip: '2a10:8006:ea6f:0:9ddf:beee:934b:4e85%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: /var/folders/n8/jzp58rb134n...}, goog:chromeOptions: {debuggerAddress: localhost:57420}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 00d76d5789d0239a5f8890c6dfeb8c1a
+*** Element info: {Using=id, value=em}
+18:51:26  INFO  application.MyListener - We have a throwable --> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#em"}
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Gennadij-2.local', ip: '2a10:8006:ea6f:0:9ddf:beee:934b:4e85%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: /var/folders/n8/jzp58rb134n...}, goog:chromeOptions: {debuggerAddress: localhost:57420}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 00d76d5789d0239a5f8890c6dfeb8c1a
+*** Element info: {Using=id, value=em}
+18:51:28  INFO  application.MyListener - Screen with throwable --->src/test/screenshots/screen-3086.png
+18:51:28  INFO  application.MyListener - Start find element by------>  
+18:51:38  INFO  application.MyListener - The element  ---> By.xpath: //button[.='Ok'] was found
+18:51:38  INFO  tests.TestBase - End of test -->loginSuccess
+18:51:38  INFO  tests.TestBase - Start method: loginSuccessModel
+18:51:38  INFO  application.MyListener - Start find element by------>  
+18:51:48  INFO  application.MyListener - The element  ---> By.xpath: //a[text()=' Logout '] was found
+18:51:48  INFO  application.MyListener - Start find element by------>  
+18:51:48  INFO  application.MyListener - The element  ---> By.xpath: //a[text()=' Log in '] was found
+18:51:48  INFO  application.MyListener - Start find element by------>  
+18:51:48  INFO  application.MyListener - The element  ---> By.id: email was found
+18:51:48  INFO  application.MyListener - Start find element by------>  
+18:51:48  INFO  application.MyListener - The element  ---> By.id: password was found
+18:51:48  INFO  application.MyListener - Start find element by------>  
+18:51:48  INFO  application.MyListener - The element  ---> By.xpath: //button[@type='submit'] was found
+18:51:49  INFO  application.MyListener - Start find element by------>  
+18:51:49  INFO  application.MyListener - The element  ---> By.cssSelector: .dialog-container h2 was found
+18:51:49  INFO  application.MyListener - Start find element by------>  
+18:51:49  INFO  application.MyListener - The element  ---> By.xpath: //button[.='Ok'] was found
+18:51:49  INFO  application.MyListener - Start find element by------>  
+18:51:49  INFO  application.MyListener - The element  ---> By.xpath: //button[.='Ok'] was found
+18:51:49  INFO  tests.TestBase - End of test -->loginSuccessModel
+18:51:49  INFO  tests.TestBase - Start method: negativeLoginWrongPassword
+18:51:49  INFO  application.MyListener - Start find element by------>  
+18:51:49  INFO  application.MyListener - The element  ---> By.xpath: //a[text()=' Logout '] was found
+18:51:49  INFO  application.MyListener - Start find element by------>  
+18:51:49  INFO  application.MyListener - The element  ---> By.xpath: //a[text()=' Logout '] was found
+18:51:49  INFO  application.MyListener - Start find element by------>  
+18:51:49  INFO  application.MyListener - The element  ---> By.xpath: //a[text()=' Log in '] was found
+18:51:50  INFO  application.MyListener - Start find element by------>  
+18:52:00  INFO  application.MyListener - We have a throwable --> no such element: Unable to locate element: {"method":"css selector","selector":"#em"}
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Gennadij-2.local', ip: '2a10:8006:ea6f:0:9ddf:beee:934b:4e85%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: /var/folders/n8/jzp58rb134n...}, goog:chromeOptions: {debuggerAddress: localhost:57420}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 00d76d5789d0239a5f8890c6dfeb8c1a
+*** Element info: {Using=id, value=em}
+18:52:00  INFO  application.MyListener - We have a throwable --> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#em"}
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Gennadij-2.local', ip: '2a10:8006:ea6f:0:9ddf:beee:934b:4e85%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: /var/folders/n8/jzp58rb134n...}, goog:chromeOptions: {debuggerAddress: localhost:57420}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 00d76d5789d0239a5f8890c6dfeb8c1a
+*** Element info: {Using=id, value=em}
+18:52:01  INFO  application.MyListener - Screen with throwable --->src/test/screenshots/screen-3120.png
+18:52:01  INFO  application.MyListener - Start find element by------>  
+18:52:11  INFO  application.MyListener - The element  ---> By.xpath: //button[.='Ok'] was found
+18:52:11  INFO  tests.TestBase - End of test -->negativeLoginWrongPassword

@@ -22,7 +22,7 @@ public class AddNewCar extends TestBase{
         }
 
     }
-
+/*
     @Test
     public void addNewCar(){
         int i = (int)((System.currentTimeMillis()/1000)%3600);
@@ -49,10 +49,9 @@ public class AddNewCar extends TestBase{
         app.car().fillCarForm(car);
         app.car().attachPhoto();
         app.car().clickButtonSubmit();
-
         Assert.assertTrue(app.car().isCarAdded());
     }
-
+*/
     @Test
     public void addNewCarSuccessModelCarNew(){
         int i = (int)((System.currentTimeMillis()/1000)%3600);

@@ -1,0 +1,40 @@
+01:59:08  INFO  tests.TestBase - Start method: rentWithoutLogin
+01:59:08  INFO  application.MyListener - Start find element by------>  
+01:59:08  INFO  application.MyListener - The element  ---> By.id: city was found
+01:59:08  INFO  application.MyListener - Start find element by------>  
+01:59:09  INFO  application.MyListener - The element  ---> By.cssSelector: div.pac-item was found
+01:59:09  INFO  application.MyListener - Start find element by------>  
+01:59:09  INFO  application.MyListener - The element  ---> By.id: dates was found
+01:59:10  INFO  application.MyListener - Start find element by------>  
+01:59:10  INFO  application.MyListener - The element  ---> By.cssSelector: .cdk-overlay-container was found
+01:59:10  INFO  application.MyListener - Start find element by------>  
+01:59:10  INFO  application.MyListener - The element  ---> By.xpath: //button[@type='submit'] was found
+01:59:10  INFO  application.MyListener - Start find element by------>  
+01:59:10  INFO  application.MyListener - The element  ---> By.cssSelector: .search-results was found
+01:59:10  INFO  application.MyListener - Start find element by------>  
+01:59:11  INFO  application.MyListener - The element  ---> By.xpath: //span[text()='BMW M5'] was found
+01:59:12  INFO  application.MyListener - Start find element by------>  
+01:59:12  INFO  application.MyListener - The element  ---> By.xpath: //button[.='Rent now!! '] was found
+01:59:12  INFO  application.MyListener - Start find element by------>  
+01:59:12  INFO  application.MyListener - The element  ---> By.xpath: //a[.=' Log in '] was found
+01:59:12  INFO  application.MyListener - Start find element by------>  
+01:59:22  INFO  application.MyListener - We have a throwable --> no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: chrome=95.0.4638.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Gennadij-2.local', ip: '2a10:8006:ea6f:0:9ddf:beee:934b:4e85%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: /var/folders/n8/jzp58rb134n...}, goog:chromeOptions: {debuggerAddress: localhost:53225}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 00584768d35afa24acd28109fbce7bc7
+*** Element info: {Using=xpath, value=//input[@id='email']}
+01:59:22  INFO  application.MyListener - We have a throwable --> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: chrome=95.0.4638.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Gennadij-2.local', ip: '2a10:8006:ea6f:0:9ddf:beee:934b:4e85%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: /var/folders/n8/jzp58rb134n...}, goog:chromeOptions: {debuggerAddress: localhost:53225}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 00584768d35afa24acd28109fbce7bc7
+*** Element info: {Using=xpath, value=//input[@id='email']}
+01:59:24  INFO  application.MyListener - Screen with throwable --->src/test/screenshots/screen-3563.png
+01:59:24  INFO  tests.TestBase - End of test -->rentWithoutLogin

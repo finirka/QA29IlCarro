@@ -1,0 +1,56 @@
+10:34:23  INFO  tests.TestBase - Start method: loginSuccessModel
+10:34:23  INFO  application.MyListener - Start find element by------>  
+10:34:33  INFO  application.MyListener - The element  ---> By.xpath: //a[text()=' Logout '] was found
+10:34:33  INFO  application.MyListener - Start find element by------>  
+10:34:33  INFO  application.MyListener - The element  ---> By.xpath: //a[text()=' Log in '] was found
+10:34:33  INFO  application.MyListener - Start find element by------>  
+10:34:33  INFO  application.MyListener - The element  ---> By.id: email was found
+10:34:34  INFO  application.MyListener - Start find element by------>  
+10:34:34  INFO  application.MyListener - The element  ---> By.id: password was found
+10:34:34  INFO  application.MyListener - Start find element by------>  
+10:34:34  INFO  application.MyListener - The element  ---> By.xpath: //button[@type='submit'] was found
+10:34:34  INFO  application.MyListener - Start find element by------>  
+10:34:35  INFO  application.MyListener - The element  ---> By.cssSelector: .dialog-container h2 was found
+10:34:35  INFO  application.MyListener - Start find element by------>  
+10:34:35  INFO  application.MyListener - The element  ---> By.xpath: //button[.='Ok'] was found
+10:34:35  INFO  application.MyListener - Start find element by------>  
+10:34:35  INFO  application.MyListener - The element  ---> By.xpath: //button[.='Ok'] was found
+10:34:35  INFO  tests.TestBase - End of test -->loginSuccessModel
+10:34:35  INFO  tests.TestBase - Start method: loginSuccessModel
+10:34:35  INFO  application.MyListener - Start find element by------>  
+10:34:35  INFO  application.MyListener - The element  ---> By.xpath: //a[text()=' Logout '] was found
+10:34:35  INFO  application.MyListener - Start find element by------>  
+10:34:35  INFO  application.MyListener - The element  ---> By.xpath: //a[text()=' Logout '] was found
+10:34:35  INFO  application.MyListener - Start find element by------>  
+10:34:35  INFO  application.MyListener - The element  ---> By.xpath: //a[text()=' Log in '] was found
+10:34:35  INFO  application.MyListener - Start find element by------>  
+10:34:35  INFO  application.MyListener - The element  ---> By.id: email was found
+10:34:35  INFO  application.MyListener - Start find element by------>  
+10:34:35  INFO  application.MyListener - The element  ---> By.id: password was found
+10:34:36  INFO  application.MyListener - Start find element by------>  
+10:34:36  INFO  application.MyListener - The element  ---> By.xpath: //button[@type='submit'] was found
+10:34:36  INFO  application.MyListener - Start find element by------>  
+10:34:36  INFO  application.MyListener - The element  ---> By.cssSelector: .dialog-container h2 was found
+10:34:36  INFO  application.MyListener - Start find element by------>  
+10:34:36  INFO  application.MyListener - The element  ---> By.xpath: //button[.='Ok'] was found
+10:34:36  INFO  application.MyListener - Start find element by------>  
+10:34:36  INFO  application.MyListener - The element  ---> By.xpath: //button[.='Ok'] was found
+10:34:36  INFO  tests.TestBase - End of test -->loginSuccessModel
+10:34:36  INFO  tests.TestBase - Start method: loginSuccessModel
+10:34:36  INFO  application.MyListener - Start find element by------>  
+10:34:46  INFO  application.MyListener - The element  ---> By.xpath: //a[text()=' Logout '] was found
+10:34:46  INFO  application.MyListener - Start find element by------>  
+10:34:46  INFO  application.MyListener - The element  ---> By.xpath: //a[text()=' Log in '] was found
+10:34:46  INFO  application.MyListener - Start find element by------>  
+10:34:46  INFO  application.MyListener - The element  ---> By.id: email was found
+10:34:46  INFO  application.MyListener - Start find element by------>  
+10:34:47  INFO  application.MyListener - The element  ---> By.id: password was found
+10:34:47  INFO  application.MyListener - Start find element by------>  
+10:34:47  INFO  application.MyListener - The element  ---> By.xpath: //button[@type='submit'] was found
+10:34:47  INFO  application.MyListener - Start find element by------>  
+10:34:47  INFO  application.MyListener - The element  ---> By.cssSelector: .dialog-container h2 was found
+10:34:47  INFO  application.MyListener - Start find element by------>  
+10:34:47  INFO  application.MyListener - The element  ---> By.xpath: //button[.='Ok'] was found
+10:34:47  INFO  application.MyListener - Start find element by------>  
+10:34:47  INFO  application.MyListener - The element  ---> By.xpath: //button[.='Ok'] was found
+10:34:47  INFO  tests.TestBase - End of test -->loginSuccessModel

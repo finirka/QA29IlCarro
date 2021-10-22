@@ -1,0 +1,4 @@
+22:01:14  INFO  tests.TestBase - Start method: rentWithLogin
+22:01:14  INFO  application.MyListener - Start find element by------>  
+22:01:24  INFO  application.MyListener - The element  ---> By.xpath: //a[text()=' Logout '] was found
+22:01:24  INFO  tests.TestBase - End of test -->rentWithLogin

@@ -8,14 +8,14 @@ import org.testng.annotations.Test;
 
 public class RegistrationTest extends TestBase {
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition() {
         if (app.userHelper().isLogOutPresent()) {
             app.userHelper().logout();
         }
     }
-
-    @Test
+    /*
+    @Test(groups = {"web"})
     public void registrationSuccess() {
         int i = (int) ((System.currentTimeMillis() / 1000) % 3600);
         app.userHelper().openRegistrationForm();
@@ -25,7 +25,7 @@ public class RegistrationTest extends TestBase {
         app.userHelper().submitForm();
         Assert.assertTrue(app.userHelper().isRegistrationSuccess());
     }
-
+*/
     @Test
     public void registrationSuccessModel() {
 
@@ -33,9 +33,12 @@ public class RegistrationTest extends TestBase {
         User user = new User()
                 .withName("Lis").withLastName("Slow").withEmail("slow" + i + "@gmail.com").withPassword("Ss1234" + i + "$");
 
+        logger.info("TestData: name: " + user.getName() + ", Last name: " + user.getLastName() + ", E-mail: " + user.getEmail() + ", Password: " + user.getPassword());
         app.userHelper().openRegistrationForm();
         app.userHelper().fillRegistrationForm(user);
+        logger.info("openRegistrationForm appeared");
         app.userHelper().fillCheckBox();
+        logger.info("openRegiatration Form filled");
         app.userHelper().submitForm();
         Assert.assertTrue(app.userHelper().isRegistrationSuccess());
     }
@@ -113,7 +116,7 @@ public class RegistrationTest extends TestBase {
         Assert.assertFalse(app.userHelper().isYallaButtonActive());
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void postCondition() {
         app.userHelper().clickOkButton();
     }

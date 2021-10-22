@@ -1,0 +1,34 @@
+02:19:43  INFO  tests.TestBase - Start method: rentWithoutLogin
+02:19:43  INFO  application.MyListener - Start find element by------>  
+02:19:43  INFO  application.MyListener - The element  ---> By.id: city was found
+02:19:44  INFO  application.MyListener - Start find element by------>  
+02:19:44  INFO  application.MyListener - The element  ---> By.cssSelector: div.pac-item was found
+02:19:45  INFO  application.MyListener - Start find element by------>  
+02:19:45  INFO  application.MyListener - The element  ---> By.id: dates was found
+02:19:45  INFO  application.MyListener - Start find element by------>  
+02:19:45  INFO  application.MyListener - The element  ---> By.cssSelector: .cdk-overlay-container was found
+02:19:45  INFO  application.MyListener - Start find element by------>  
+02:19:45  INFO  application.MyListener - The element  ---> By.xpath: //button[@type='submit'] was found
+02:19:45  INFO  application.MyListener - Start find element by------>  
+02:19:45  INFO  application.MyListener - The element  ---> By.cssSelector: .search-results was found
+02:19:45  INFO  application.MyListener - Start find element by------>  
+02:19:46  INFO  application.MyListener - The element  ---> By.xpath: //span[text()='BMW M5'] was found
+02:19:48  INFO  application.MyListener - Start find element by------>  
+02:19:48  INFO  application.MyListener - The element  ---> By.xpath: //button[.='Rent now!! '] was found
+02:19:48  INFO  application.MyListener - Start find element by------>  
+02:19:48  INFO  application.MyListener - The element  ---> By.xpath: //a[.=' Log in '] was found
+02:19:48  INFO  application.MyListener - Start find element by------>  
+02:19:48  INFO  application.MyListener - The element  ---> By.xpath: //input[@id='email'] was found
+02:19:48  INFO  application.MyListener - Start find element by------>  
+02:19:48  INFO  application.MyListener - The element  ---> By.xpath: //input[@id='password'] was found
+02:19:48  INFO  application.MyListener - Start find element by------>  
+02:19:48  INFO  application.MyListener - The element  ---> By.xpath: //button[@type='submit'] was found
+02:19:49  INFO  application.MyListener - Start find element by------>  
+02:19:49  INFO  application.MyListener - The element  ---> By.xpath: //button[.='Rent now!! '] was found
+02:19:50  INFO  application.MyListener - Start find element by------>  
+02:19:50  INFO  application.MyListener - The element  ---> By.xpath: //input[@id='phone'] was found
+02:19:50  INFO  application.MyListener - Start find element by------>  
+02:19:50  INFO  application.MyListener - The element  ---> By.xpath: //button[@type='submit'] was found
+02:19:50  INFO  application.MyListener - Start find element by------>  
+02:19:51  INFO  application.MyListener - The element  ---> By.xpath: //div[@class='dialog-container']//h1[@class='title'] was found
+02:19:51  INFO  tests.TestBase - End of test -->rentWithoutLogin

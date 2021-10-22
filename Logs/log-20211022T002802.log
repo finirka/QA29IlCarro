@@ -1,0 +1,22 @@
+00:28:10  INFO  tests.TestBase - Start method: rentWithLogin
+00:28:10  INFO  application.MyListener - Start find element by------>  
+00:28:10  INFO  application.MyListener - The element  ---> By.id: city was found
+00:28:10  INFO  application.MyListener - Start find element by------>  
+00:28:11  INFO  application.MyListener - The element  ---> By.cssSelector: div.pac-item was found
+00:28:11  INFO  application.MyListener - Start find element by------>  
+00:28:11  INFO  application.MyListener - The element  ---> By.id: dates was found
+00:28:12  INFO  application.MyListener - Start find element by------>  
+00:28:12  INFO  application.MyListener - The element  ---> By.cssSelector: .cdk-overlay-container was found
+00:28:12  INFO  application.MyListener - Start find element by------>  
+00:28:12  INFO  application.MyListener - The element  ---> By.xpath: //button[@type='submit'] was found
+00:28:12  INFO  application.MyListener - Start find element by------>  
+00:28:12  INFO  application.MyListener - The element  ---> By.cssSelector: .search-results was found
+00:28:12  INFO  application.MyListener - Start find element by------>  
+00:28:12  INFO  application.MyListener - The element  ---> By.cssSelector: .search-results was found
+00:28:12  INFO  application.MyListener - Start find element by------>  
+00:28:13  INFO  application.MyListener - The element  ---> By.xpath: //span[text()='Volvo V40'] was found
+00:28:19  INFO  application.MyListener - Start find element by------>  
+00:28:19  INFO  application.MyListener - The element  ---> By.xpath: //button[.='Rent now!! '] was found
+00:28:19  INFO  application.MyListener - Start find element by------>  
+00:28:29  INFO  application.MyListener - The element  ---> By.xpath: //a[text()=' Logout '] was found
+00:28:29  INFO  tests.TestBase - End of test -->rentWithLogin

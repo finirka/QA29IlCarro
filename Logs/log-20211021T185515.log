@@ -1,0 +1,59 @@
+18:55:24  INFO  tests.TestBase - Start method: loginSuccess
+18:55:24  INFO  application.MyListener - Start find element by------>  
+18:55:34  INFO  application.MyListener - The element  ---> By.xpath: //a[text()=' Logout '] was found
+18:55:34  INFO  tests.TestBase - Login with email: nnoa@gmail.com & password: Nn12345$ 
+18:55:34  INFO  application.MyListener - Start find element by------>  
+18:55:34  INFO  application.MyListener - The element  ---> By.xpath: //a[text()=' Log in '] was found
+18:55:34  INFO  application.MyListener - Start find element by------>  
+18:55:34  INFO  application.MyListener - The element  ---> By.id: email was found
+18:55:35  INFO  application.MyListener - Start find element by------>  
+18:55:35  INFO  application.MyListener - The element  ---> By.id: password was found
+18:55:35  INFO  application.MyListener - Start find element by------>  
+18:55:35  INFO  application.MyListener - The element  ---> By.xpath: //button[@type='submit'] was found
+18:55:35  INFO  application.MyListener - Start find element by------>  
+18:55:35  INFO  application.MyListener - The element  ---> By.xpath: //a[.=' Log in '] was found
+18:55:35  INFO  application.MyListener - Start find element by------>  
+18:55:36  INFO  application.MyListener - The element  ---> By.xpath: //button[.='Ok'] was found
+18:55:36  INFO  application.MyListener - Start find element by------>  
+18:55:36  INFO  application.MyListener - The element  ---> By.xpath: //button[.='Ok'] was found
+18:55:36  INFO  tests.TestBase - End of test -->loginSuccess
+18:55:36  INFO  tests.TestBase - Start method: loginSuccessModel
+18:55:36  INFO  application.MyListener - Start find element by------>  
+18:55:36  INFO  application.MyListener - The element  ---> By.xpath: //a[text()=' Logout '] was found
+18:55:36  INFO  application.MyListener - Start find element by------>  
+18:55:36  INFO  application.MyListener - The element  ---> By.xpath: //a[text()=' Logout '] was found
+18:55:36  INFO  application.MyListener - Start find element by------>  
+18:55:36  INFO  application.MyListener - The element  ---> By.xpath: //a[text()=' Log in '] was found
+18:55:36  INFO  application.MyListener - Start find element by------>  
+18:55:36  INFO  application.MyListener - The element  ---> By.id: email was found
+18:55:36  INFO  application.MyListener - Start find element by------>  
+18:55:36  INFO  application.MyListener - The element  ---> By.id: password was found
+18:55:37  INFO  application.MyListener - Start find element by------>  
+18:55:37  INFO  application.MyListener - The element  ---> By.xpath: //button[@type='submit'] was found
+18:55:37  INFO  application.MyListener - Start find element by------>  
+18:55:37  INFO  application.MyListener - The element  ---> By.cssSelector: .dialog-container h2 was found
+18:55:37  INFO  application.MyListener - Start find element by------>  
+18:55:37  INFO  application.MyListener - The element  ---> By.xpath: //button[.='Ok'] was found
+18:55:37  INFO  application.MyListener - Start find element by------>  
+18:55:37  INFO  application.MyListener - The element  ---> By.xpath: //button[.='Ok'] was found
+18:55:37  INFO  tests.TestBase - End of test -->loginSuccessModel
+18:55:37  INFO  tests.TestBase - Start method: negativeLoginWrongPassword
+18:55:37  INFO  application.MyListener - Start find element by------>  
+18:55:37  INFO  application.MyListener - The element  ---> By.xpath: //a[text()=' Logout '] was found
+18:55:37  INFO  application.MyListener - Start find element by------>  
+18:55:37  INFO  application.MyListener - The element  ---> By.xpath: //a[text()=' Logout '] was found
+18:55:38  INFO  application.MyListener - Start find element by------>  
+18:55:38  INFO  application.MyListener - The element  ---> By.xpath: //a[text()=' Log in '] was found
+18:55:38  INFO  application.MyListener - Start find element by------>  
+18:55:38  INFO  application.MyListener - The element  ---> By.id: email was found
+18:55:38  INFO  application.MyListener - Start find element by------>  
+18:55:38  INFO  application.MyListener - The element  ---> By.id: password was found
+18:55:38  INFO  application.MyListener - Start find element by------>  
+18:55:38  INFO  application.MyListener - The element  ---> By.xpath: //button[@type='submit'] was found
+18:55:38  INFO  application.MyListener - Start find element by------>  
+18:55:39  INFO  application.MyListener - The element  ---> By.cssSelector: .dialog-container h2 was found
+18:55:39  INFO  application.MyListener - Start find element by------>  
+18:55:39  INFO  application.MyListener - The element  ---> By.xpath: //button[.='Ok'] was found
+18:55:39  INFO  application.MyListener - Start find element by------>  
+18:55:39  INFO  application.MyListener - The element  ---> By.xpath: //button[.='Ok'] was found
+18:55:39  INFO  tests.TestBase - End of test -->negativeLoginWrongPassword

@@ -1,0 +1,56 @@
+10:01:04  INFO  tests.TestBase - Start method: loginSuccess
+10:01:04  INFO  application.MyListener - Start find element by------>  
+10:01:14  INFO  application.MyListener - The element  ---> By.xpath: //a[text()=' Logout '] was found
+10:01:14  INFO  application.MyListener - Start find element by------>  
+10:01:14  INFO  application.MyListener - The element  ---> By.xpath: //a[text()=' Log in '] was found
+10:01:15  INFO  application.MyListener - Start find element by------>  
+10:01:15  INFO  application.MyListener - The element  ---> By.id: email was found
+10:01:15  INFO  application.MyListener - Start find element by------>  
+10:01:15  INFO  application.MyListener - The element  ---> By.id: password was found
+10:01:15  INFO  application.MyListener - Start find element by------>  
+10:01:15  INFO  application.MyListener - The element  ---> By.xpath: //button[@type='submit'] was found
+10:01:15  INFO  application.MyListener - Start find element by------>  
+10:01:15  INFO  application.MyListener - The element  ---> By.xpath: //a[.=' Log in '] was found
+10:01:15  INFO  application.MyListener - Start find element by------>  
+10:01:16  INFO  application.MyListener - The element  ---> By.xpath: //button[.='Ok'] was found
+10:01:16  INFO  application.MyListener - Start find element by------>  
+10:01:16  INFO  application.MyListener - The element  ---> By.xpath: //button[.='Ok'] was found
+10:01:16  INFO  tests.TestBase - End of test -->loginSuccess
+10:01:16  INFO  tests.TestBase - Start method: loginSuccess
+10:01:16  INFO  application.MyListener - Start find element by------>  
+10:01:16  INFO  application.MyListener - The element  ---> By.xpath: //a[text()=' Logout '] was found
+10:01:16  INFO  application.MyListener - Start find element by------>  
+10:01:16  INFO  application.MyListener - The element  ---> By.xpath: //a[text()=' Logout '] was found
+10:01:16  INFO  application.MyListener - Start find element by------>  
+10:01:16  INFO  application.MyListener - The element  ---> By.xpath: //a[text()=' Log in '] was found
+10:01:16  INFO  application.MyListener - Start find element by------>  
+10:01:16  INFO  application.MyListener - The element  ---> By.id: email was found
+10:01:16  INFO  application.MyListener - Start find element by------>  
+10:01:16  INFO  application.MyListener - The element  ---> By.id: password was found
+10:01:17  INFO  application.MyListener - Start find element by------>  
+10:01:17  INFO  application.MyListener - The element  ---> By.xpath: //button[@type='submit'] was found
+10:01:17  INFO  application.MyListener - Start find element by------>  
+10:01:17  INFO  application.MyListener - The element  ---> By.xpath: //a[.=' Log in '] was found
+10:01:17  INFO  application.MyListener - Start find element by------>  
+10:01:17  INFO  application.MyListener - The element  ---> By.xpath: //button[.='Ok'] was found
+10:01:17  INFO  application.MyListener - Start find element by------>  
+10:01:17  INFO  application.MyListener - The element  ---> By.xpath: //button[.='Ok'] was found
+10:01:17  INFO  tests.TestBase - End of test -->loginSuccess
+10:01:17  INFO  tests.TestBase - Start method: loginSuccess
+10:01:17  INFO  application.MyListener - Start find element by------>  
+10:01:27  INFO  application.MyListener - The element  ---> By.xpath: //a[text()=' Logout '] was found
+10:01:27  INFO  application.MyListener - Start find element by------>  
+10:01:27  INFO  application.MyListener - The element  ---> By.xpath: //a[text()=' Log in '] was found
+10:01:27  INFO  application.MyListener - Start find element by------>  
+10:01:27  INFO  application.MyListener - The element  ---> By.id: email was found
+10:01:28  INFO  application.MyListener - Start find element by------>  
+10:01:28  INFO  application.MyListener - The element  ---> By.id: password was found
+10:01:28  INFO  application.MyListener - Start find element by------>  
+10:01:28  INFO  application.MyListener - The element  ---> By.xpath: //button[@type='submit'] was found
+10:01:28  INFO  application.MyListener - Start find element by------>  
+10:01:28  INFO  application.MyListener - The element  ---> By.xpath: //a[.=' Log in '] was found
+10:01:28  INFO  application.MyListener - Start find element by------>  
+10:01:28  INFO  application.MyListener - The element  ---> By.xpath: //button[.='Ok'] was found
+10:01:28  INFO  application.MyListener - Start find element by------>  
+10:01:28  INFO  application.MyListener - The element  ---> By.xpath: //button[.='Ok'] was found
+10:01:28  INFO  tests.TestBase - End of test -->loginSuccess

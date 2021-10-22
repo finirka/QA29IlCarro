@@ -15,6 +15,7 @@ public class UserHelper extends HelperBase{
     }
 
     public void  fillLoginForm(String email, String password){
+        //type(By.id("em"), email);
         type(By.id("email"), email);
         //type(By.xpath("//*[@id='email']"),email);
         type(By.id("password"), password);
@@ -86,6 +87,7 @@ public class UserHelper extends HelperBase{
     }
 
     public boolean isLogOutPresent () {
+
         return isElementPresent(By.xpath("//a[text()=' Logout ']"));
     }
 
@@ -131,4 +133,7 @@ public class UserHelper extends HelperBase{
     }
 
 
+    public boolean isLogInPresent() {
+        return isElementPresent(By.xpath("//a[.=' Log in ']"));
+    }
 }
