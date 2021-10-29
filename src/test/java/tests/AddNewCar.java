@@ -18,6 +18,7 @@ public class AddNewCar extends TestBase{
         if(!app.userHelper().isLogOutPresent()){
             app.userHelper().openLoginForm();
             app.userHelper().fillLoginForm("nnoa@gmail.com", "Nn12345$");
+
             app.userHelper().submitForm();
         }
 

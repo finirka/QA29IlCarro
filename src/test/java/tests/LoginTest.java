@@ -64,6 +64,11 @@ public class LoginTest extends TestBase{
         return list.iterator();
     }
 
+    @Test
+    public void test(){
+
+    }
+
     //@Test(dataProvider = "dataLoginCSV")
     @Test(dataProvider = "dataLoginCSV",dataProviderClass = MyDataProvider.class)
     public void loginSuccessModel(User user){
